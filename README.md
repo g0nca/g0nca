@@ -20,8 +20,7 @@ I'm a student at **42 Porto**, where I'm developing my skills in programming and
 - 🔧 Regularly use **Valgrind** for memory checking and performance optimization.
 
 ### 📬 Get in Touch:
-- 📧 Email: [your-email@example.com]  
-- 🌐 GitHub: [Your GitHub Profile Link]  
-- 💼 LinkedIn: [Your LinkedIn Profile Link]
+- 📧 Email: [vgncalo63@gmail.com]   
+- 💼 LinkedIn: [https://www.linkedin.com/in/gon%C3%A7a-valente-28bab7333/]
 
 Thanks for checking out my profile! 😊
