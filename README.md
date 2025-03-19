@@ -1,17 +1,13 @@
-# 👋 Hello, I'm [Goncalo Valente]
+# Hello, I'm [Goncalo Valente]
 
-I'm a student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I'm passionate about **C programming**, **Linux**, and system-level development. I enjoy working on challenging projects that push my abilities to the next level.
+📝 | I'm a student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 
-### 🚀 About Me
-- 🎓 **42 Porto** student, constantly learning and improving my coding skills.
-- 💻 I specialize in **C programming** and love exploring low-level systems and algorithms.
-- 🐧 I work mainly in **Linux** and enjoy using the **shell** to automate tasks and streamline my workflow.
-- 🛠️ I frequently use **Valgrind** to debug and ensure memory management is on point.
-- 🎯 My primary editor is **Visual Studio Code**, where I spend hours coding, learning, and testing.
+### 🚀 Learning ...
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ### 📊 My Tech Stack:
 - **Languages**: C, Shell scripting
-- **Tools**: Valgrind, Visual Studio Code, Git, GCC
+- **Tools**: Valgrind, Visual Studio Code, Git, CC
 - **Operating System**: Linux
 
 ### 📈 Stats:
