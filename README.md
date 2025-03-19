@@ -1,5 +1,6 @@
 # Hello, I'm Goncalo Valente
 ![42 Porto](https://img.shields.io/badge/porto-000000?style=for-the-badge&logo=42&logoColor=white)
+
 📝 | I'm a student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 
 ### 🚀 Learning ...
