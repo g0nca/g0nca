@@ -26,8 +26,6 @@
   <img src="https://img.shields.io/badge/-Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=ffffff">
 </p>
 
-#
-
 # 📌 GitHub Stats:
 ***
 <p align="center">
