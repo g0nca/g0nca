@@ -21,11 +21,6 @@
 </p>
 
 ***
-### 📈 Stats:
-- 💼 Currently working on several **42 Porto** projects and improving my problem-solving skills.
-- 🖥️ Proficient in **C** programming, and working on projects involving memory management, process control, and system calls.
-- 🔧 Regularly use **Valgrind** for memory checking and performance optimization.
-***
 ### 📬 Get in Touch:
 - 📧 Email: [vgncalo63@gmail.com]   
 - 💼 LinkedIn: [https://www.linkedin.com/in/gon%C3%A7a-valente-28bab7333/]
