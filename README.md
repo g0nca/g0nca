@@ -9,6 +9,7 @@
 + 🛵  Motorcycle rides
 #
 ### 🚀 Learning ...
+***
 - 💻 | All the projects I have developed so far are in the **C language**, where I have learned to **manage memory**, **control computer processes**, and use **system calls**. I also use Shell Scripting at 42 School.
 ### 🛠️ Tech Stack
 <p align="center">
@@ -20,7 +21,7 @@
   <img src="https://img.shields.io/badge/-Linux-%23FCC624?style=flat-square&logo=linux&logoColor=000000">
   <img src="https://img.shields.io/badge/-Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=ffffff">
 </p>
-
+#
 ***
 ### 📬 Get in Touch:
 - 📧 Email: [vgncalo63@gmail.com]   
