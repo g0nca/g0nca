@@ -4,7 +4,7 @@
 ***
 ### 🚀 Learning ...
 - 💻 | All the projects I have developed so far are in the **C Language**, i use too **Shell Scripting**, at 42 School
-
+***
 ### 💡 Tech
   ![C](https://img.shields.io/badge/-C-%2300599C?style=flat-square&logo=c&logoColor=ffffff)
   ![Bash](https://img.shields.io/badge/-Bash-%23121011?style=flat-square&logo=gnu-bash&logoColor=white)
