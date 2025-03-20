@@ -1,6 +1,6 @@
 # 🔹 Hii !! 😁
 ### 📖  About Me
----
+#
 📝 | I'm Goncalo Valente, student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 ### ⏳ Free Time
 *(I spend my free time with)*
