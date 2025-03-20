@@ -3,8 +3,7 @@
 📝 | I'm a student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 
 ### 🚀 Learning ...
-- 💻 | Currently i'm learning **C Language**, **Shell Scripting** and **Algorithms** at 42 School
-- 🔧 | How to use different tools to improve my skills, such as **Valgrind** and **GDB**
+- 💻 | All the projects I have developed so far are in the **C Language**, i use too **Shell Scripting**, at 42 School
 
 ### 💡 Tech
   ![C](https://img.shields.io/badge/-C-%2300599C?style=flat-square&logo=c&logoColor=ffffff)
