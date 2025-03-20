@@ -8,7 +8,7 @@
 + 🛵  Motorcycle rides
 ***
 ### 🚀 Learning ...
-- 💻 | All the projects I have developed so far are in the **C Language**, i use too **Shell Scripting**, at 42 School
+- 💻 | All the projects I have developed so far are in the `**C language**`, where I have learned to **manage memory**, **control computer processes**, and use **system calls**. I also use Shell Scripting at 42 School.
 ***
 ### 💡 Tech
   ![C](https://img.shields.io/badge/-C-%2300599C?style=flat-square&logo=c&logoColor=ffffff)
