@@ -1,13 +1,13 @@
 # 🔹 Hii !! 😁
 ### 📖  About Me
-#
+***
 📝 | I'm Goncalo Valente, student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 ### ⏳ Free Time
 *(I spend my free time with)*
 + 📺  Watching Series
 + 🏋️‍♂️  Gym
 + 🛵  Motorcycle rides
-***
+#
 ### 🚀 Learning ...
 - 💻 | All the projects I have developed so far are in the **C language**, where I have learned to **manage memory**, **control computer processes**, and use **system calls**. I also use Shell Scripting at 42 School.
 ### 🛠️ Tech Stack
