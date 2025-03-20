@@ -1,4 +1,5 @@
 # 🔹 Hii !! 😁
+![Image](https://github.com/user-attachments/assets/de26717d-3b54-4573-a782-adff36f18849)
 ### 📖  About Me
 ***
 📝 | I'm Goncalo Valente, student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
