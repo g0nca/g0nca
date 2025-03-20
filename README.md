@@ -26,6 +26,11 @@
   <img src="https://img.shields.io/badge/-Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=ffffff">
 </p>
 
+# 📌 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=g0nca&theme=synthwave&hide_border=true&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=g0nca&theme=synthwave&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=g0nca&theme=synthwave&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+
 #
 ### ☎️ Contact Me
 ***
