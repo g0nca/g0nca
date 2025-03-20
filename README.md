@@ -23,8 +23,8 @@
 </p>
 #
 ***
+
 ### 📬 Get in Touch:
 - 📧 Email: [vgncalo63@gmail.com]   
 - 💼 LinkedIn: [https://www.linkedin.com/in/gon%C3%A7a-valente-28bab7333/]
-***
 Thanks for checking out my profile! 😊
