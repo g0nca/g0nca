@@ -51,6 +51,9 @@
   <a href="vgncalo63@gmail.com">
     <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
+  <a href="https://www.instagram.com/g0nca2004/" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
 </p>
 
 Thanks for checking out my profile! 😊
