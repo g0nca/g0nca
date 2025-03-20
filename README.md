@@ -5,7 +5,7 @@
 📝 | I'm Goncalo Valente, student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 ### ⏳ Free Time
 *(I spend my free time with)*
-![Image](https://github.com/user-attachments/assets/e42a3bf8-49f1-4cdb-aa23-ce185e6a0a42)
+<img hight="400" width="500" alt="GIF" align="right" src="https://github.com/user-attachments/assets/e42a3bf8-49f1-4cdb-aa23-ce185e6a0a42">
 + 📺  Watching Series
 + 🏋️‍♂️  Gym
 + 🛵  Motorcycle rides
