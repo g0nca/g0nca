@@ -22,8 +22,8 @@
   <img src="https://img.shields.io/badge/-Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=ffffff">
 </p>
 #
-***
 
+***
 ### 📬 Get in Touch:
 - 📧 Email: [vgncalo63@gmail.com]   
 - 💼 LinkedIn: [https://www.linkedin.com/in/gon%C3%A7a-valente-28bab7333/]
