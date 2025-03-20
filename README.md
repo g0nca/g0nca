@@ -29,7 +29,7 @@
 #
 ### ☎️ Contact Me
 ***
-<img hight="300" width="400" alt="GIF" align="right" src="https://github.com/user-attachments/assets/1ead1e81-c224-45ba-b1a4-b21ef264d2bf">
+<img hight="100" width="200" alt="GIF" align="right" src="https://github.com/user-attachments/assets/1ead1e81-c224-45ba-b1a4-b21ef264d2bf">
 
 
 ### 📬 Get in Touch:
