@@ -1,4 +1,4 @@
-# Hello, I'm Goncalo Valente
+# 🔷 | Hello, I'm Goncalo Valente
 
 📝 | I'm a student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 ***
