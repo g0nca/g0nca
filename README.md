@@ -8,7 +8,8 @@
 + 🛵  Motorcycle rides
 ***
 ### 🚀 Learning ...
-- 💻 | All the projects I have developed so far are in the `**C language**`, where I have learned to **manage memory**, **control computer processes**, and use **system calls**. I also use Shell Scripting at 42 School.
+- 💻 | All the projects I have developed so far are in the **C language**, where I have learned to **manage memory**, **control computer processes**, and use **system calls**. I also use Shell Scripting at 42 School.
+![C](https://img.shields.io/badge/-C-%2300599C?style=flat-square&logo=c&logoColor=ffffff)![Bash](https://img.shields.io/badge/-Bash-%23121011?style=flat-square&logo=gnu-bash&logoColor=white)![Valgrind](https://img.shields.io/badge/-Valgrind-%23614833?style=flat-square&logo=valgrind&logoColor=white)![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=ffffff)![VS Code](https://img.shields.io/badge/-VSCode-%23007ACC?style=flat-square&logo=visual-studio-code)  ![Linux](https://img.shields.io/badge/-Linux-%23FCC624?style=flat-square&logo=linux&logoColor=000000)![Ubuntu](https://img.shields.io/badge/-Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=ffffff)  
 ***
 ### 💡 Tech
   ![C](https://img.shields.io/badge/-C-%2300599C?style=flat-square&logo=c&logoColor=ffffff)
