@@ -11,7 +11,7 @@
 + 📺  Watching Series
 + 🏋️‍♂️  Gym
 + 🛵  Motorcycle rides
-#
+
 ### 🚀 Learning ...
 ***
 - 💻 | All the projects I have developed so far are in the **C language**, where I have learned to **manage memory**, **control computer processes**, and use **system calls**. I also use Shell Scripting at 42 School.
