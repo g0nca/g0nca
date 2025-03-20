@@ -29,6 +29,9 @@
 #
 ### ☎️ Contact Me
 ***
+<img hight="300" width="400" alt="GIF" align="right" src="https://github.com/user-attachments/assets/1ead1e81-c224-45ba-b1a4-b21ef264d2bf">
+
+
 ### 📬 Get in Touch:
 - 📧 Email: [vgncalo63@gmail.com]   
 - 💼 LinkedIn: [https://www.linkedin.com/in/gon%C3%A7a-valente-28bab7333/]
