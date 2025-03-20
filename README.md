@@ -9,7 +9,7 @@
 ***
 ### 🚀 Learning ...
 - 💻 | All the projects I have developed so far are in the **C language**, where I have learned to **manage memory**, **control computer processes**, and use **system calls**. I also use Shell Scripting at 42 School.
-### 💡 Tech
+### 🛠️ Tech Stack
 <p align="center">
   <img src="https://img.shields.io/badge/-C-%2300599C?style=flat-square&logo=c&logoColor=ffffff">
   <img src="https://img.shields.io/badge/-Bash-%23121011?style=flat-square&logo=gnu-bash&logoColor=white">
