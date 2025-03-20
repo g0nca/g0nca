@@ -45,6 +45,12 @@
 ### 📬 Get in Touch:
 - 📧 Email: [vgncalo63@gmail.com]   
 - 💼 LinkedIn: [https://www.linkedin.com/in/gon%C3%A7a-valente-28bab7333/]
-  
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/gon%C3%A7a-valente-28bab7333/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</p>
+
 Thanks for checking out my profile! 😊
 #
