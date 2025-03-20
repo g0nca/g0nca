@@ -1,18 +1,19 @@
 # Hello, I'm Goncalo Valente
-![42 Porto](https://img.shields.io/badge/porto-000000?style=for-the-badge&logo=42&logoColor=white)
 
 📝 | I'm a student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 
 ### 🚀 Learning ...
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 - 💻 | Currently i'm learning **C Language**, **Shell Scripting** and **Algorithms** at 42 School
-  
 - 🔧 | How to use different tools to improve my skills, such as **Valgrind** and **GDB**
 
-### 📊 My Tech Stack:
-- **Languages**: C, Shell scripting
-- **Tools**: Valgrind, Visual Studio Code, Git, CC
-- **Operating System**: Linux
+### 💡 Tech
+  ![C](https://img.shields.io/badge/-C-%2300599C?style=flat-square&logo=c&logoColor=ffffff)
+  ![Bash](https://img.shields.io/badge/-Bash-%23121011?style=flat-square&logo=gnu-bash&logoColor=white)
+  ![Valgrind](https://img.shields.io/badge/-Valgrind-%23614833?style=flat-square&logo=valgrind&logoColor=white)  
+  ![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=ffffff)
+  ![VS Code](https://img.shields.io/badge/-VSCode-%23007ACC?style=flat-square&logo=visual-studio-code)  
+  ![Linux](https://img.shields.io/badge/-Linux-%23FCC624?style=flat-square&logo=linux&logoColor=000000)
+  ![Ubuntu](https://img.shields.io/badge/-Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=ffffff)  
 
 ### 📈 Stats:
 - 💼 Currently working on several **42 Porto** projects and improving my problem-solving skills.
