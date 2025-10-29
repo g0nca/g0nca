@@ -4,8 +4,6 @@
 ***
 📝 | I'm Goncalo Valente, student at **42 Porto**, where I'm developing my skills in programming and problem-solving. I enjoy working on challenging projects that push my abilities to the next level.
 
-<img hight="250" width="350" alt="GIF" align="right" src="https://github.com/user-attachments/assets/e42a3bf8-49f1-4cdb-aa23-ce185e6a0a42">
-
 ### ⏳ Free Time
 *(I spend my free time with)*
 + 📺  Watching Series
@@ -36,12 +34,6 @@
   <img src="https://nirzak-streak-stats.vercel.app/?user=g0nca&theme=synthwave&hide_border=true">
 </p>
 
-#
-### ☎️ Contact Me
-***
-<img hight="100" width="200" alt="GIF" align="right" src="https://github.com/user-attachments/assets/1ead1e81-c224-45ba-b1a4-b21ef264d2bf">
-
-
 ### 📬 Get in Touch:
 
 <p align="center">
@@ -57,6 +49,4 @@
     <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
 </p>
-
-Thanks for checking out my profile! 😊
 
