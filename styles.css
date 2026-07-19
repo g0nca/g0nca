@@ -1,0 +1,516 @@
+/* =========================================================
+   Bamboo · Furadouro — menu digital
+   Paleta: areia #E9DCC3 · madeira escura #2F1E14 ·
+   madeira média #7A4E2D · azulejo #1F4E5F (texto: #1A424F) ·
+   ardósia #24312F · giz #F2EDE4
+   ========================================================= */
+
+/* ---- Fontes auto-alojadas (subset latino) ---- */
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/bitter-600-latin.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("fonts/karla-var-latin.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --areia: #E9DCC3;
+  --areia-clara: #F0E6D2;
+  --madeira-escura: #2F1E14;
+  --madeira-media: #7A4E2D;
+  --madeira-texto: #4A2F1C;   /* descrições: 9:1 sobre areia */
+  --azulejo: #1F4E5F;
+  --azulejo-texto: #1A424F;   /* preços/acentos em texto: 8:1 sobre areia */
+  --ardosia: #24312F;
+  --giz: #F2EDE4;
+  --display: "Bitter", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --corpo: "Karla", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --largura: 42rem;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--areia);
+  color: var(--madeira-escura);
+  font-family: var(--corpo);
+  font-size: 18px;
+  line-height: 1.45;
+  -webkit-text-size-adjust: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid var(--azulejo);
+  outline-offset: 2px;
+}
+
+/* =========================================================
+   Cabeçalho
+   ========================================================= */
+.cabecalho {
+  max-width: var(--largura);
+  margin: 0 auto;
+  padding: 1.25rem 1rem 0.75rem;
+}
+.cabecalho-linha {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.marca { margin: 0; }
+.marca-nome {
+  display: block;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.marca-local {
+  display: block;
+  font-size: 0.89rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--madeira-texto);
+}
+.zona {
+  margin: 0.35rem 0 0;
+  font-size: 0.89rem;
+  color: var(--azulejo-texto);
+  letter-spacing: 0.06em;
+}
+
+/* Seletor de idioma */
+.idiomas {
+  display: flex;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+.idiomas button {
+  min-width: 48px;
+  min-height: 48px;
+  padding: 0;
+  border: 1px solid var(--madeira-media);
+  background: transparent;
+  color: var(--madeira-escura);
+  font-family: var(--corpo);
+  font-size: 0.89rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.idiomas button[aria-pressed="true"] {
+  background: var(--azulejo);
+  border-color: var(--azulejo);
+  color: var(--giz);
+}
+
+/* =========================================================
+   Barra de categorias (sticky)
+   ========================================================= */
+.categorias {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--areia);
+  border-bottom: 1px solid var(--madeira-media);
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 0.4rem max(1rem, calc((100% - var(--largura)) / 2 + 1rem));
+  -webkit-overflow-scrolling: touch;
+}
+.categorias::-webkit-scrollbar { display: none; }
+.categorias a {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 0.9rem;
+  color: var(--madeira-escura);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.94rem;
+  letter-spacing: 0.02em;
+  border-bottom: 3px solid transparent;
+}
+.categorias a[aria-current="true"] {
+  color: var(--azulejo-texto);
+  border-bottom-color: var(--azulejo);
+}
+
+/* =========================================================
+   Estrutura principal
+   ========================================================= */
+main {
+  max-width: var(--largura);
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+.noscript {
+  padding: 2rem 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+section[id] {
+  /* âncoras aterram abaixo da barra sticky */
+  scroll-margin-top: 4.2rem;
+}
+
+/* Título de categoria + filete "veio de madeira" */
+.categoria-titulo {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 2.25rem 0 0.25rem;
+}
+.veio {
+  border: 0;
+  height: 3px;
+  margin: 0 0 1rem;
+  background:
+    linear-gradient(90deg,
+      var(--madeira-media) 0%,
+      #9a6b42 18%,
+      var(--madeira-media) 34%,
+      #5e3a20 52%,
+      var(--madeira-media) 70%,
+      #9a6b42 88%,
+      var(--madeira-media) 100%);
+  opacity: 0.75;
+}
+
+.subgrupo-titulo {
+  font-family: var(--corpo);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--madeira-texto);
+  margin: 1.5rem 0 0.25rem;
+}
+
+/* =========================================================
+   Itens do menu (tipográficos, sem cards)
+   ========================================================= */
+.item {
+  padding: 0.7rem 0;
+}
+.item + .item {
+  border-top: 1px dotted #B79C80; /* madeira média esbatida sobre areia */
+}
+.item-linha {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.item-nome {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.11rem; /* 20px */
+  margin: 0;
+}
+.item-leader {
+  flex: 1;
+  min-width: 1.25rem;
+  border-bottom: 2px dotted #AC8E71;
+  transform: translateY(-0.28em);
+}
+.item-preco {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: var(--azulejo-texto);
+}
+.item-descricao {
+  margin: 0.15rem 0 0;
+  color: var(--madeira-texto);
+  font-size: 0.94rem;
+  max-width: 34rem;
+}
+.item-meta {
+  margin: 0.3rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+}
+.item-alergenios {
+  color: var(--madeira-texto);
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+}
+.tag {
+  border: 1px solid var(--azulejo-texto);
+  color: var(--azulejo-texto);
+  padding: 0.05rem 0.4rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
+.tag-favorito {
+  background: var(--azulejo);
+  border-color: var(--azulejo);
+  color: var(--giz);
+}
+
+/* Item escondido pelos filtros */
+.item[data-escondido], section[data-escondido], .subgrupo[data-escondido] { display: none; }
+.sem-resultados {
+  margin: 1rem 0;
+  color: var(--madeira-texto);
+  font-style: italic;
+}
+
+/* =========================================================
+   Ardósia das Diárias — elemento assinatura
+   ========================================================= */
+.ardosia {
+  margin: 1.5rem 0 0.5rem;
+  background: var(--ardosia);
+  color: var(--giz);
+  padding: 1.5rem 1.25rem 1.25rem;
+  transform: rotate(-0.6deg);
+  border: 4px solid #1a2422;
+  box-shadow: inset 0 0 0 1px rgba(242, 237, 228, 0.12);
+  /* riscos de giz muito subtis */
+  background-image:
+    repeating-linear-gradient(83deg,
+      transparent 0 14px,
+      rgba(242, 237, 228, 0.025) 14px 15px,
+      transparent 15px 40px),
+    repeating-linear-gradient(-7deg,
+      transparent 0 22px,
+      rgba(242, 237, 228, 0.02) 22px 24px,
+      transparent 24px 60px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .ardosia { transform: none; }
+}
+.ardosia-rotulo {
+  margin: 0;
+  font-size: 0.83rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(242, 237, 228, 0.85);
+}
+.ardosia-dia {
+  margin: 0.1rem 0 0.75rem;
+  font-size: 0.94rem;
+  color: rgba(242, 237, 228, 0.85);
+}
+.ardosia-prato {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.67rem; /* 30px */
+  line-height: 1.2;
+}
+.ardosia-descricao {
+  margin: 0.4rem 0 0;
+  color: rgba(242, 237, 228, 0.92);
+  font-size: 1rem;
+}
+.ardosia-preco {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.44rem;
+  color: var(--giz);
+}
+.ardosia .item-meta { font-size: 0.78rem; }
+.ardosia .item-alergenios { color: rgba(242, 237, 228, 0.8); }
+.ardosia .tag {
+  border-color: rgba(242, 237, 228, 0.6);
+  color: var(--giz);
+}
+
+/* Outros dias, fechados por defeito */
+.outros-dias { margin-top: 0.75rem; }
+.outros-dias summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--azulejo-texto);
+  list-style: none;
+}
+.outros-dias summary::-webkit-details-marker { display: none; }
+.outros-dias summary::before {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.5em;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 120ms ease;
+}
+.outros-dias[open] summary::before { transform: rotate(45deg); }
+.outros-dias .item-dia {
+  font-weight: 700;
+  font-size: 0.83rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--madeira-texto);
+  margin: 0 0 0.1rem;
+}
+
+/* =========================================================
+   Filtros por tag
+   ========================================================= */
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1.25rem 0 0;
+}
+.filtros button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 1rem;
+  border: 1px solid var(--madeira-media);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--madeira-escura);
+  font-family: var(--corpo);
+  font-size: 0.94rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.filtros button[aria-pressed="true"] {
+  background: var(--azulejo);
+  border-color: var(--azulejo);
+  color: var(--giz);
+}
+
+/* =========================================================
+   Rodapé
+   ========================================================= */
+.rodape {
+  border-top: 1px solid var(--madeira-media);
+  max-width: var(--largura);
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2.5rem;
+  font-size: 0.94rem;
+}
+.rodape a {
+  color: var(--azulejo-texto);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.rodape-info { margin: 0; }
+.rodape-info .sep { color: var(--madeira-media); padding: 0 0.35rem; }
+.rodape-redes { margin: 0.5rem 0 0; }
+.rodape-nota {
+  margin: 0.75rem 0 0;
+  color: var(--madeira-texto);
+  font-size: 0.83rem;
+}
+
+.alergenios-legenda { margin-top: 1rem; }
+.alergenios-legenda summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--azulejo-texto);
+}
+.alergenios-legenda ol {
+  margin: 0.25rem 0 0;
+  padding-left: 1.5rem;
+  columns: 2;
+  column-gap: 2rem;
+  font-size: 0.89rem;
+}
+.alergenios-legenda li { break-inside: avoid; padding: 0.1rem 0; }
+.alergenios-legenda .nota { font-size: 0.89rem; color: var(--madeira-texto); margin: 0.5rem 0 0; }
+
+/* =========================================================
+   Botão voltar ao topo
+   ========================================================= */
+.topo {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 20;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--madeira-media);
+  border-radius: 50%;
+  background: var(--areia-clara);
+  color: var(--madeira-escura);
+  cursor: pointer;
+  opacity: 0.92;
+}
+
+/* =========================================================
+   Ecrãs maiores: nada muda de essencial, só respira mais
+   ========================================================= */
+@media (min-width: 640px) {
+  .marca-nome { font-size: 2.5rem; }
+  .ardosia { padding: 2rem 1.75rem 1.5rem; }
+}
+
+/* =========================================================
+   Impressão
+   ========================================================= */
+@media print {
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .idiomas, .categorias, .filtros, .topo, .noscript { display: none !important; }
+  .ardosia {
+    transform: none;
+    background: #fff;
+    background-image: none;
+    color: #000;
+    border: 2px solid #000;
+    box-shadow: none;
+  }
+  .ardosia-rotulo, .ardosia-dia, .ardosia-descricao, .ardosia-preco,
+  .ardosia .item-alergenios, .ardosia .tag { color: #000; }
+  .item-descricao, .item-alergenios, .subgrupo-titulo,
+  .rodape-nota, .alergenios-legenda .nota { color: #222; }
+  .ardosia .tag { border-color: #000; background: none; }
+  .item-preco, .categorias a, .tag, .rodape a,
+  .outros-dias summary, .alergenios-legenda summary { color: #000; }
+  .tag-favorito { background: none; border: 1px solid #000; }
+  .item, .ardosia, section { break-inside: avoid; }
+  .outros-dias summary::before { display: none; }
+  .rodape a { text-decoration: none; }
+  .veio { background: #000; height: 1px; opacity: 1; }
+}
